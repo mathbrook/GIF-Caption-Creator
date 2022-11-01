@@ -1,10 +1,8 @@
 <p align=center><a href=http://ifunny.co><img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/Main/iFunny-Captions.svg width=675></a></p>
 
-<p align=center><a href=http://python.org/downloads/release/python-376><img src=https://img.shields.io/badge/Python-3.7.6-brightgreen?logo=python&logoColor=white&link=http://python.org/downloads/release/python-376&style=for-the-badge></a>　<a href=http://colab.research.google.com/github/kubinka0505/iFunny-Captions/blob/master/Documents/iFunny-Captions.ipynb><img src=https://img.shields.io/badge/colab-open-F9AB00?&logo=google-colab&logoColor=F9AB00&style=for-the-badge></a>　<a href=http://youtube.com/watch?v=r8KTluI9Q5Q><img src=http://shields.io/badge/showcase-watch-FF0000?logo=youtube&style=for-the-badge></p>
+<p align=center><a href=http://python.org/downloads/release/python-376><img src=https://img.shields.io/badge/Python-3.7.6-brightgreen?logo=python&logoColor=white&link=http://python.org/downloads/release/python-376&style=for-the-badge></a>
 
-<p align=center><a href=http://github.com/kubinka0505/iFunny-Captions/releases/><img src=https://img.shields.io/github/v/release/kubinka0505/iFunny-Captions?style=for-the-badge></a>　<a href=http://github.com/kubinka0505/iFunny-Captions/commit><img src=https://img.shields.io/github/last-commit/kubinka0505/iFunny-Captions?style=for-the-badge></a>　<a href=http://github.com/kubinka0505/iFunny-Captions/issues><img src=https://img.shields.io/github/issues/kubinka0505/iFunny-Captions?style=for-the-badge></a>　<a href=http://github.com/kubinka0505/iFunny-Captions/blob/master/License.txt><img src=https://img.shields.io/github/license/kubinka0505/iFunny-Captions?logo=readthedocs&color=red&logoColor=white&style=for-the-badge></a></p>
-
-<p align=center><img src=https://img.shields.io/tokei/lines/github/kubinka0505/iFunny-Captions?style=for-the-badge>　<img src=https://img.shields.io/github/languages/code-size/kubinka0505/iFunny-Captions?style=for-the-badge></p>
+<p align=center><a href=http://github.com/kubinka0505/iFunny-Captions/releases/><img src=https://img.shields.io/github/v/release/kubinka0505/iFunny-Captions?style=for-the-badge></a> <a href=http://github.com/kubinka0505/iFunny-Captions/blob/master/License.txt><img src=https://img.shields.io/github/license/kubinka0505/iFunny-Captions?logo=readthedocs&color=red&logoColor=white&style=for-the-badge></a></p>
 
 ## Description 📝
 Pack of scripts providing widely customizable [iFunny Captions](http://knowyourmeme.com/memes/gif-captions) generation.
