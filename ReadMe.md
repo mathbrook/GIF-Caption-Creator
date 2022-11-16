@@ -1,8 +1,8 @@
-<p align=center><a href=http://ifunny.co><img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/Main/iFunny-Captions.svg width=675></a></p>
+<p align=center><a href=http://ifunny.co><img src=https://raw.githubusercontent.com/UhhhAaron/iFunny-Captions/master/Documents/Pictures/Main/gifcaptioncreator.png width=675></a></p>
 
 <p align=center><a href=http://python.org/downloads/release/python-376><img src=https://img.shields.io/badge/Python-3.7.6-brightgreen?logo=python&logoColor=white&link=http://python.org/downloads/release/python-376&style=for-the-badge></a>
 
-<p align=center><a href=http://github.com/kubinka0505/iFunny-Captions/releases/><img src=https://img.shields.io/github/v/release/kubinka0505/iFunny-Captions?style=for-the-badge></a> <a href=http://github.com/kubinka0505/iFunny-Captions/blob/master/License.txt><img src=https://img.shields.io/github/license/kubinka0505/iFunny-Captions?logo=readthedocs&color=red&logoColor=white&style=for-the-badge></a></p>
+<p align=center><a href=http://github.com/UhhhAaron/iFunny-Captions/releases/><img src=https://img.shields.io/github/v/release/UhhhAaron/iFunny-Captions?style=for-the-badge></a> <a href=http://github.com/UhhhAaron/iFunny-Captions/blob/master/License.txt><img src=https://img.shields.io/github/license/UhhhAaron/iFunny-Captions?logo=readthedocs&color=red&logoColor=white&style=for-the-badge></a></p>
 
 ## Description 📝
 Pack of scripts providing widely customizable [iFunny Captions](http://knowyourmeme.com/memes/gif-captions) generation.
@@ -33,7 +33,7 @@ Pack of scripts providing widely customizable [iFunny Captions](http://knowyourm
 - ✔️ GIF size reduction
 - ✔️ Custom fonts support<sup>2</sup> <sup>3</sup>
 - ✔️ Transparent GIF support
-- ✔️ [Program Showcase](http://youtube.com/watch?v=r8KTluI9Q5Q) ([Colab](http://youtube.com/watch?v=Uf-D2iEOvDU))
+- ✔️ [Program Showcase](http://youtube.com/watch?v=r8KTluI9Q5Q) ([Broken Colab](http://youtube.com/watch?v=Uf-D2iEOvDU))
 - ✔️ Colab Notebook
 - ✔️ Emoji support<sup>3</sup>
 - ✔️❌ Automatic text wrap
