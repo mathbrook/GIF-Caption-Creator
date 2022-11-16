@@ -18,7 +18,7 @@ Pack of scripts providing widely customizable [GIF caption](http://knowyourmeme.
 | Characters Limit | 140 | ❔ | **≈1000** ❔ |
 | Emoji support | ✔️ | ✔️ | ✔️ |
 | Crop support | ✔️ | ✔️ | ❌ |
-| Graphical User Interface | ✔️ | ✔️ | ✔️ <img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/Main/Google_Colab.svg width=25> |
+| Graphical User Interface | ✔️ | ✔️ | ❌ <img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/Main/Google_Colab.svg width=25> |
 | Command Line Interface | ❌ | ❌ | ✔️ |
 | Batch Processing | ❌ | ❌ | ✔️ |
 ---
