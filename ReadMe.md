@@ -5,7 +5,7 @@
 <p align=center><a href=http://github.com/UhhhAaron/iFunny-Captions/releases/><img src=https://img.shields.io/github/v/release/UhhhAaron/iFunny-Captions?style=for-the-badge></a> <a href=http://github.com/UhhhAaron/iFunny-Captions/blob/master/License.txt><img src=https://img.shields.io/github/license/UhhhAaron/iFunny-Captions?logo=readthedocs&color=red&logoColor=white&style=for-the-badge></a></p>
 
 ## Description 📝
-Pack of scripts providing widely customizable [iFunny Captions](http://knowyourmeme.com/memes/gif-captions) generation.
+Pack of scripts providing widely customizable [GIF caption](http://knowyourmeme.com/memes/gif-captions) generation.
 
 ## Capabilities 📈
 |  | Android App | iOS App | `iFunny-Captions` |
