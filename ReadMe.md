@@ -33,7 +33,7 @@ Pack of scripts providing widely customizable [GIF caption](http://knowyourmeme.
 - ✔️ GIF size reduction
 - ✔️ Custom fonts support<sup>2</sup> <sup>3</sup>
 - ✔️ Transparent GIF support
-- ✔️ [Program Showcase](http://youtube.com/watch?v=r8KTluI9Q5Q) ([Broken Colab](http://youtube.com/watch?v=Uf-D2iEOvDU))
+- ❌ [Program Showcase](http://youtube.com/watch?v=r8KTluI9Q5Q) ([Broken Colab](http://youtube.com/watch?v=Uf-D2iEOvDU))
 - ✔️ Colab Notebook
 - ✔️ Emoji support<sup>3</sup>
 - ✔️❌ Automatic text wrap
