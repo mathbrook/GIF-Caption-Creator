@@ -4,58 +4,51 @@
 
 <p align=center><a href=http://github.com/UhhhAaron/iFunny-Captions/releases/><img src=https://img.shields.io/github/v/release/UhhhAaron/iFunny-Captions?style=for-the-badge></a> <a href=http://github.com/UhhhAaron/iFunny-Captions/blob/master/License.txt><img src=https://img.shields.io/github/license/UhhhAaron/iFunny-Captions?logo=readthedocs&color=red&logoColor=white&style=for-the-badge></a></p>
 
-## Description 📝
-Pack of scripts providing widely customizable [GIF caption](http://knowyourmeme.com/memes/gif-captions) generation.
 
-## Capabilities 📈
-|  | Android App | iOS App | `iFunny-Captions` |
-|:-:|:-:|:-:|:-:|
-| PNG Captions | ✔️ | ❔ | ✔️ |
-| GIF Captions | ✔️ | ✔️ | ✔️ |
-| MP4 Captions | ✔️ | ❔ | ✔️ |
-| Image optimization | ❌ | ❌ | ✔️ |
-| Custom Fonts | ❌ | ❌ | ✔️ |
-| Characters Limit | 140 | ❔ | **≈1000** ❔ |
-| Emoji support | ✔️ | ✔️ | ✔️ |
-| Crop support | ✔️ | ✔️ | ❌ |
-| Graphical User Interface | ✔️ | ✔️ | ❌ <img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/Main/Google_Colab.svg width=25> |
-| Command Line Interface | ❌ | ❌ | ✔️ |
-| Batch Processing | ❌ | ❌ | ✔️ |
+### GIF-Caption-Creator is a pack of scripts providing widely customizable [GIF caption](http://knowyourmeme.com/memes/gif-captions) generation.
+
+## Capabilities 
+|  | iFunny App | `GIF-Caption-Creator` |
+|:-:|:-:|:-:|
+| PNG Captions | ✔️ | ✔️ |
+| GIF Captions | ✔️ | ✔️ |
+| MP4 Captions | ✔️ | ✔️ |
+| Image optimization | ❌ | ✔️ |
+| Custom Fonts | ❌ | ✔️ |
+| Emoji support | ✔️ | ✔️ |
+| Crop support | ✔️ | ❌ |
+| Graphical User Interface | ✔️ | ❌ <img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/Main/Google_Colab.svg width=25> |
+| Batch Processing | ❌ | ✔️ |
 ---
-## Completed & Planned Features 🧑‍💻
-- ✔️ Completed
-- ❌ In Development
----
+## Completed & Planned Features
 - ✔️ PNG Captions
 - ✔️ GIF Captions
-- ✔️ Offline support
-- ✔️ Most popular GIF services support<sup>1</sup>
+- ✔️ Local file support
 - ✔️ GIF size reduction
-- ✔️ Custom fonts support<sup>2</sup> <sup>3</sup>
+- ✔️ Custom fonts support
 - ✔️ Transparent GIF support
 - ❌ [Program Showcase](http://youtube.com/watch?v=r8KTluI9Q5Q) ([Broken Colab](http://youtube.com/watch?v=Uf-D2iEOvDU))
-- ✔️ Colab Notebook
+- ❌ Colab Notebook
 - ✔️ Emoji support<sup>3</sup>
-- ✔️❌ Automatic text wrap
+- ✔️ Automatic text wrap
 
-<sup>1</sup> - May not work with some URLs. Please look at [supported GIF services](http://github.com/kubinka0505/iFunny-Captions#supported-gif-services-%EF%B8%8F) below.<br>
-<sup>2</sup> - Please look at [Custom Fonts](http://github.com/kubinka0505/iFunny-Captions/wiki/Custom-Fonts) section in wiki.<br>
-<sup>3</sup> - Problems with wrap height might occur.
+<sup>1</sup> - Please look at [Custom Fonts](http://github.com/UhhhAaron/GIF-Caption-Creator/wiki/Custom-Fonts) section in wiki.<br>
+<sup>2</sup> - Problems with wrap height might occur.
 
-## Requirements 📥
+## Requirements
 Programs:
-- [`Python >= 3.7`](http://www.python.org/downloads) 🐍
+- [`Python >= 3.7`](http://www.python.org/downloads) 
 
 Modules:
-- [`Pillow >= 5.1.0`](http://github.com/python-pillow/Pillow) - Making images 🖼️
-- [`requests >= 2.13`](http://github.com/psf/requests) - URL fetching 🔗
-- [`emoji >= 0.4.5`](http://github.com/carpedm20/emoji) - Text to emoji support ✨
-- [`clipboard >= 0.0.4`](http://github.com/terryyin/clipboard) - Clipboard values handling 📋
-- [`sty >= 0.0.4`](https://github.com/feluxe/sty) - Colored prints 🎨
-- [`colour >= 0.1.5`](https://github.com/vaab/colour) - Colored text values handling 🎨
-- [`unidecode`](http://github.com/avian2/unidecode) - [Text normalization](http://wikipedia.org/wiki/Text_normalization#Techniques) ⚙️
-- [`distro >= 1.7`](https://github.com/python-distro/distro)<sup>1</sup> - Directory opening helper 📂
-- [`pyshortcuts >= 1.8`](https://github.com/newville/pyshortcuts) - Shortcuts making 📁
+- [`Pillow >= 5.1.0`](http://github.com/python-pillow/Pillow) - Making images 
+- [`requests >= 2.13`](http://github.com/psf/requests) - URL fetching 
+- [`emoji >= 0.4.5`](http://github.com/carpedm20/emoji) - Text to emoji support 
+- [`clipboard >= 0.0.4`](http://github.com/terryyin/clipboard) - Clipboard values handling 
+- [`sty >= 0.0.4`](https://github.com/feluxe/sty) - Colored prints 
+- [`colour >= 0.1.5`](https://github.com/vaab/colour) - Colored text values handling 
+- [`unidecode`](http://github.com/avian2/unidecode) - [Text normalization](http://wikipedia.org/wiki/Text_normalization#Techniques) 
+- [`distro >= 1.7`](https://github.com/python-distro/distro)<sup>1</sup> - Directory opening helper 
+- [`pyshortcuts >= 1.8`](https://github.com/newville/pyshortcuts) - Shortcuts making 
 
 Packages (bold links are **Windows** static executable binaries):
 - [**`FFmpeg >= 4.2.0`**](http://videohelp.com/software/ffmpeg/old-versions) - Since `PIL.ImageSequence.Iterator` messes up the frames colors.
@@ -68,35 +61,33 @@ Packages (bold links are **Windows** static executable binaries):
 <sup>1</sup> - Required on Linux
 
 ---
-## Installation & Usage 📝
+## Linux Installation & Usage
+`sudo apt-get install git python3-apt python3-pip python3-tk ffmpeg pngquant gifsicle`
 
-**When on Linux**, install packages using this one-liner:
-```bash
-sudo apt-get install git python3-apt python3-pip python3-tk ffmpeg pngquant gifsicle
-```
+**For non-Debian distros, use the equivalent package manager to install these dependencies.**
 1. Clone the repository and move to its directory.
 	```bash
-	git clone http://github.com/kubinka0505/iFunny-Captions
+	git clone http://github.com/UhhhAaron/GIF-Caption-Creator
 	cd iFunny-Captions
 	```
 2. Install required modules	by inputting `pip install -r requirements.txt`
-3. Allocate [the required files](http://github.com/kubinka0505/iFunny-Captions#requirements-) to `PATH` system environment variable.
-4. Modify the parameters in the `Config.json` file. [Its documentation can be found here](http://github.com/kubinka0505/iFunny-Captions/wiki/Configuration-Documentation).
+3. Allocate [the required files](http://github.com/UhhhAaron/GIF-Caption-Creator#requirements-) to `PATH` system environment variable.
+4. Modify the parameters in the `Config.json` file. [Its documentation can be found here](http://github.com/UhhhAaron/GIF-Caption-Creator/wiki/Configuration-Documentation).
 5. Open shell script file named `Run`. Supports positional arguments - type `python iFunny_Captions.pyw -h` for more.
-6. Share Your image from the `Images` directory.
+6. Output should be in the `Images` folder.
 
-## Meta Info ℹ️
-All versions of this project have been tested on:
-| OS | Distribution | OS Version | Python Version | System Architecture (`bits`) |
-|:-:|:-:|:-:|:-:|:-:|
-Windows | ― | 10 | 3.7.6 | 32, 64
+## Support
+This project was tested on:
+| OS | Python Version |
+|:-:|:-:|
+Windows 10 | 3.7.6 
 
-[**In case of problems create issue.**](http://github.com/kubinka0505/iFunny-Captions/issues/new/choose)
+[**If there are problems, create an issue here.**](http://github.com/UhhhAaron/GIF-Caption-Creator/issues/new/choose)
 
 ---
-### Supported GIF services 🗃️
+### Supported GIF services
 
-In case if service is not working - copy its **direct non-static image URL**.
+Be sure to copy the **raw image URL**.
 <table>
   <thead>
 	<tr>
@@ -113,35 +104,23 @@ In case if service is not working - copy its **direct non-static image URL**.
   </thead>
   <tbody>
 	<tr align=center>
-		<td><a href=http://tenor.com target="_blank"><img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/GIF_Image_Services_Logos/Tenor.svg alt=Tenor width=65></a></td>
-		<td><a href=http://giphy.com target="_blank"><img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/GIF_Image_Services_Logos/Giphy.svg alt=Giphy width=65></a></td>
-		<td><a href=http://gfycat.com target="_blank"><img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/GIF_Image_Services_Logos/Gfycat.svg alt=Gfycat width=65></a></td>
-		<td><a href=http://tumblr.com target="_blank"><img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/GIF_Image_Services_Logos/Tumblr.svg alt=Tumblr width=65></a></td>
-		<td><a href=http://imgflip.com target="_blank"><img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/GIF_Image_Services_Logos/ImgFlip.svg alt=ImgFlip width=65></a></td>
-		<td><a href=http://gifimage.net target="_blank"><img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/GIF_Image_Services_Logos/GifImage.png alt=GifImage width=65></a></td>
-		<td><a href=http://bestanimations.com target="_blank"><img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/GIF_Image_Services_Logos/BestAnimations.png alt=BestAnimations width=65></a></td>
-		<td><a href=http://gif-finder.com target="_blank"><img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/GIF_Image_Services_Logos/GifFinder.png alt=GifFinder width=65></a></td>
-		<td><a href=http://reactiongifs.us target="_blank"><img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/GIF_Image_Services_Logos/ReactionGIFs.svg alt=ReactionGIFs width=65></a></td>
+		<td><a href=http://tenor.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/Tenor.svg alt=Tenor width=65></a></td>
+		<td><a href=http://giphy.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/Giphy.svg alt=Giphy width=65></a></td>
+		<td><a href=http://gfycat.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/Gfycat.svg alt=Gfycat width=65></a></td>
+		<td><a href=http://tumblr.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/Tumblr.svg alt=Tumblr width=65></a></td>
+		<td><a href=http://imgflip.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/ImgFlip.svg alt=ImgFlip width=65></a></td>
+		<td><a href=http://gifimage.net target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/GifImage.png alt=GifImage width=65></a></td>
+		<td><a href=http://bestanimations.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/BestAnimations.png alt=BestAnimations width=65></a></td>
+		<td><a href=http://gif-finder.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/GifFinder.png alt=GifFinder width=65></a></td>
+		<td><a href=http://reactiongifs.us target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/ReactionGIFs.svg alt=ReactionGIFs width=65></a></td>
 	</tr>
   </tbody>
 </table>
 
 ---
-### Comparisons 🔢
+### Comparisons
 
-- | Software | Device | Time | Size | Preview |
-  |:-:|:-:|:-:|:-:|:-:|
-  | iFunny's<br>Android App | Huawei P10 Lite | 00:29.890<br>*+ saving to device* | 1.62 MB<br>(1629670 B) | <img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/Comparison_Graphics/1/iFunny.gif width=150> |
-  | kubinka0505's<br>*iFunny-Captions* | PC | 00:40.514 | **675 KB<br>(690476 B)** | <img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/Comparison_Graphics/1/iFunny-Captions.gif width=150> |
-- | Software | Device | Time | Size | Preview |
-  |:-:|:-:|:-:|:-:|:-:|
-  | iFunny's<br>Android App | Huawei P10 Lite | 00:12.900<br>*+ saving to device* | 535 KB<br>(535869 B) | <img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/Comparison_Graphics/2/iFunny.gif width=150> |
-  | **kubinka0505's<br>*iFunny-Captions*** | Huawei P10 Lite | 00:09.453 | **210 KB<br>(214781 B)** | <img src=https://raw.githubusercontent.com/kubinka0505/iFunny-Captions/master/Documents/Pictures/Comparison_Graphics/2/iFunny-Captions.gif width=150> |
-
----
-
-| Tested With | App Version | Device's Processor |
-|:-:|:-:|:-:|
-| PC | 3.7 | Intel Core i3-2120 |
-| Huawei P10 Lite | 6.15.3 | HiSilicon Kirin 658 |
-| Huawei P40 Lite | 6.15.3 | HiSilicon Kirin 810 |
+- | iFunny Android App | `GIF-Caption-Creator` |
+  |:-:|:-:|
+  | <img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/Comparison_Graphics/1/iFunny.gif width=150> | <img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/Comparison_Graphics/1/iFunny-Captions.gif width=150> 
+  | <img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/Comparison_Graphics/2/iFunny.gif width=150> | <img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/Comparison_Graphics/2/iFunny-Captions.gif width=150> |
