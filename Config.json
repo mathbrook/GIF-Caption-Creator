@@ -1,10 +1,10 @@
 {
 	"Text": {
-		"Content": "",
+		"Content": "Sample Text",
 		"Additional_Wrap": -5,
 		"Kerning": 0,
 		"Font": {
-			"Type": 2
+			"Type": 1
 		},
 		"Replacements": {
 			"''":	"\"",
@@ -19,7 +19,7 @@
 	},
 	"Media": {
 		"Image": {
-			"URL_or_Path": "",
+			"URL_or_Path": "https://media.tenor.com/O5sbAjo0-nYAAAAd/hellinheavns-capybara.gif",
 			"Scale_Back": true,
 			"Watermark": false
 		},
@@ -81,7 +81,6 @@
 				}
 			},
 		"Logs": {
-			"Time": true,
 			"Packages": false
 		},
 		"Add_Metadata": true,

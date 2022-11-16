@@ -34,11 +34,11 @@ from PIL import Image, ImageChops, ImageColor as IC, ImageDraw, ImageFile, Image
 
 #-------------------------#
 
-__author__	= "kubinka0505"
+__author__	= "UhhhAaron"
 __copyright__ = __author__
-__credits__	= __author__, "SuperCuber"
-__version__	= "3.6"
-__date__	= "02.01.2022"
+__credits__	= __author__, "kubinka0505", "SuperCuber"
+__version__	= "3.7"
+__date__	= "11.16.2022"
 __status__	= "Mature"
 __license__	= "GPL V3"
 
@@ -62,7 +62,7 @@ open_ = lambda _open: open(__BaseDir + "/Scripts/Main/" + _open + ".pyw", encodi
 
 exec(open_("../Utils"))
 exec(open_("Utils"))
-exec(open_("Make_Folder"))
+exec(open_("Folder/Make"))
 
 if system() == "Windows": os.system("title iFunny-Captions")
 exec(open_("Update/Check"))
@@ -73,7 +73,7 @@ print("{2}> iFunny-Captions {0} {3}({1}){4}\n".format(
 	)
 )
 
-exec(open_("../ArgParse"))
+exec(open_("../ArgParse/Main"))
 print("{0}Set up utils...".format(Styles.Reset))
 
 Remove_Pictures(__BaseDir)
@@ -88,11 +88,11 @@ if not system() == "Windows":
 	cache = apt.Cache()
 
 exec(open_("Packages_Location/FFmpeg"))
-exec(open_("Name_Folder"))
+exec(open_("Folder/Name"))
 
 # Image to Frames conversion & Cache System
 __CNV_TIME = time()
-exec(open_("Convert_Image"))
+exec(open_("Image/Convert"))
 exec(open_("Copy_File"))
 
 os.chdir(__BaseDir)
@@ -107,11 +107,11 @@ Frames = sorted(
 
 try:
 	# GIF Making Process
-	exec(open_("Make_GIF"))
+	exec(open_("Image/Make"))
 
 	# Image Name
-	exec(open_("Name_Image"))
-	exec(open_("Save_Image"))
+	exec(open_("Image/Name"))
+	exec(open_("Image/Save"))
 except KeyboardInterrupt:
 	print(Styles.Flaw + "\nFrames copying process was interrupted by the user, exiting." + Styles.Reset + __BEL)
 	try: Remove_Pictures(__BaseDir)
@@ -154,5 +154,4 @@ print("\n{2}Output file:{3}\n\t{4}Name{5}\t\t{0}{4}\n\tAbsolute path{5}\t{1}{3}"
 	)
 )
 
-if Config["Settings"]["Time_Logs"]:	exec(open_("Time_Logs"))
-if Config["Settings"]["Open_Folder"]: exec(open_("Open_Folder"))
+if Config["Settings"]["Open_Folder"]: exec(open_("Folder/Open"))
