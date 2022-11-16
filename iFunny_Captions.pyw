@@ -8,7 +8,7 @@ pkg_resources.require("emoji==1.6.1")
 __STA_TIME = __import__("time").time()
 import ctypes, io, math, os, re
 from sty import fg
-from auepa import Utils
+from auepafix import Utils
 from colour import Color
 from textwrap import wrap
 from platform import system

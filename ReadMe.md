@@ -54,7 +54,6 @@ Modules:
 - [`sty >= 0.0.4`](https://github.com/feluxe/sty) - Colored prints 🎨
 - [`colour >= 0.1.5`](https://github.com/vaab/colour) - Colored text values handling 🎨
 - [`unidecode`](http://github.com/avian2/unidecode) - [Text normalization](http://wikipedia.org/wiki/Text_normalization#Techniques) ⚙️
-- [`auepa`](http://github.com/kubinka0505/auepa) - API for [EmojiPedia](http://emojipedia.org) 📕 fetching *(optional)*
 - [`distro >= 1.7`](https://github.com/python-distro/distro)<sup>1</sup> - Directory opening helper 📂
 - [`pyshortcuts >= 1.8`](https://github.com/newville/pyshortcuts) - Shortcuts making 📁
 
