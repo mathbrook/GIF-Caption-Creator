@@ -1,3 +1,6 @@
+__requires__= "emoji==1.6.1"
+import pkg_resources
+pkg_resources.require("emoji==1.6.1")
 import re
 from requests import get
 from emoji import emojize, demojize
