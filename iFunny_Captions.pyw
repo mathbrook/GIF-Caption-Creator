@@ -29,7 +29,7 @@ from unidecode import unidecode as normalize
 from argparse import ArgumentParser as ap, SUPPRESS
 from emoji import emojize, demojize, UNICODE_EMOJI_ENGLISH
 from tkinter import Tk, filedialog as fd, messagebox as msgbox
-from shutil import copyfile, move as mv, rmtree, unpack_archive
+from shutil import copyfile, move as mv, rmtree, unpack_archive, which
 from PIL import Image, ImageChops, ImageColor as IC, ImageDraw, ImageFile, ImageFont, ImageOps, PngImagePlugin, UnidentifiedImageError
 
 #-------------------------#
@@ -84,8 +84,12 @@ exec(open_("Error_Handler"))
 
 # Getting Packages Location
 if not system() == "Windows":
-	import apt
-	cache = apt.Cache()
+	is_package_installed = {
+		"ffmpeg": which("ffmpeg") is not None,
+		"gifsicle": which("gifsicle") is not None,
+		"oxipng": which("oxipng") is not None,
+		"pngquant": which("pngquant") is not None,
+	}
 
 exec(open_("Packages_Location/FFmpeg"))
 exec(open_("Folder/Name"))

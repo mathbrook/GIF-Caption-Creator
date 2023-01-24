@@ -17,7 +17,7 @@ if system() == "Windows":
 		)
 else:
 	try:
-		if cache[__OxiPNG.lower()].is_installed:
+		if is_package_installed.get(__OxiPNG.lower()):
 			__OxiPNG = __OxiPNG.lower()
 	except IndexError:
 		print(__OxiPNG_Error_1 + ' {1}("{0}"){2}'.format(

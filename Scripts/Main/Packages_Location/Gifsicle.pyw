@@ -17,7 +17,7 @@ if system() == "Windows":
 		)
 else:
 	try:
-		if cache[__GifSicle.lower()].is_installed:
+		if is_package_installed.get(__GifSicle.lower()):
 			__GifSicle = __GifSicle.lower()
 	except IndexError:
 		print(__GifSicle_Error_1 + ' {1}("{0}"){2}'.format(
