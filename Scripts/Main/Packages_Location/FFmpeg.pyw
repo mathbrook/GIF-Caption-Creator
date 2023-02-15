@@ -17,7 +17,7 @@ if system() == "Windows":
 		)
 else:
 	try:
-		if cache[__FFmpeg.lower()].is_installed:
+		if is_package_installed.get(__FFmpeg.lower()):
 			__FFmpeg = __FFmpeg.lower()
 	except IndexError:
 		print(__FFmpeg_Error_1 + ' {1}("{0}"){2}'.format(

@@ -17,7 +17,7 @@ if system() == "Windows":
 		)
 else:
 	try:
-		if cache[__PNGQuant.lower()].is_installed:
+		if is_package_installed.get(__PNGQuant.lower()):
 			__PNGQuant = __PNGQuant.lower()
 	except IndexError:
 		print(__PNGQuant_Error_1 + ' {1}("{0}"){2}'.format(
