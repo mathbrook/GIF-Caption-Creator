@@ -5,6 +5,7 @@
 <p align=center><a href=http://github.com/UhhhAaron/iFunny-Captions/releases/><img src=https://img.shields.io/github/v/release/UhhhAaron/iFunny-Captions?style=for-the-badge></a> <a href=http://github.com/UhhhAaron/iFunny-Captions/blob/master/License.txt><img src=https://img.shields.io/github/license/UhhhAaron/iFunny-Captions?logo=readthedocs&color=red&logoColor=white&style=for-the-badge></a></p>
 
 ###CAUTION: This code is extremely painful to run at the moment. I advise using Python 3.10 to run it. An update is in the works to make this code painless and less complex to run.
+
 ### GIF-Caption-Creator is a pack of scripts providing widely customizable [GIF caption](http://knowyourmeme.com/memes/gif-captions) generation.
 
 ## Capabilities 
@@ -60,6 +61,7 @@ Packages (bold links are **Windows** static executable binaries):
 
 <sup>1</sup> - Required on Linux
 
+The direct executable path for FFmpeg must be added to the "Path" Environment variable on Windows (for the time being).
 ---
 ## Linux Installation & Usage
 `sudo apt-get install git python3-apt python3-pip python3-tk ffmpeg pngquant gifsicle`
