@@ -105,6 +105,7 @@ Text = wrap(
 
 #print(Text)
 
+print("Wrapping text")
 #Text = wrap(
 #	"{0}".format(Config["Text"]["Content"]),
 #	width = Font.getsize(
@@ -118,14 +119,10 @@ Text = list(sum([Word.split(r"\n") for Word in Text], []))
 
 Images = []
 Expanded_Images = []
-
 for Line in Text:
+	width, height = Font.getbbox("x")[2], Font.getbbox("pÓ")[3]
 	Line_Image = Image.new(
-		"RGBA",
-		(
-			Font.getbbox("x")[2] * len(Line) * 2,
-			Font.getbbox("pÓ")[3] * 2
-		)
+		"RGBA", (width * len(Line) * 2, height * 2)
 	)
 	Line_ImageDraw = ImageDraw.Draw(Line_Image)
 	__X = 0
@@ -184,7 +181,7 @@ for Line in Text:
 	Line_Image_2.paste(Line_Image, (0, 0), Line_Image)
 	#Line_Image_2 = ImageOps.expand(Line_Image_2, border = 1, fill= "#000") # Debug
 	Images.append(Line_Image_2)
-
+print("ok thats done")
 # Text Alignment
 for IMG in enumerate(Images):
 	IMG = IMG[0]
@@ -242,7 +239,7 @@ Pasted.paste(
 	Image_Base,
 	(
 		(Pasted.size[0] - Image_Base.size[0]) // 2,
-		(Pasted.size[1] - Image_Base.size[1]) // 2 + ((Font.getbbox("yÓ")[3] - Font.getbbox("Ó")[3]) if list("qypgj") in Text[:-1] else 0)
+		(Pasted.size[1] - Image_Base.size[1]) // 2 + ((Font.getsize("yÓ")[1] - Font.getsize("Ó")[1]) if list("qypgj") in Text[:-1] else 0)
 	),
 	Image_Base
 )
