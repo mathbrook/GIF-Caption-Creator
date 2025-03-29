@@ -123,8 +123,8 @@ for Line in Text:
 	Line_Image = Image.new(
 		"RGBA",
 		(
-			Font.getsize("x")[0] * len(Line) * 2,
-			Font.getsize("pÓ")[1] * 2
+			Font.getbbox("x")[2] * len(Line) * 2,
+			Font.getbbox("pÓ")[3] * 2
 		)
 	)
 	Line_ImageDraw = ImageDraw.Draw(Line_Image)
@@ -147,7 +147,7 @@ for Line in Text:
 			Emoji = Emoji.resize(
 				(
 					Percentage(
-						Font.getsize("pÓ")[1], 75
+						Font.getbbox("pÓ")[3], 75
 					),
 				) * 2, 1
 			)
@@ -156,7 +156,7 @@ for Line in Text:
 				Emoji,
 				(
 					__X,
-					Font.getsize("p")[1] - Font.getsize("o")[1], 
+					Font.getbbox("p")[3] - Font.getbbox("o")[3], 
 				),
 				Emoji
 			)
@@ -170,7 +170,7 @@ for Line in Text:
 			fill = __Fill
 		)
 		#-=-=-=-#
-		__X += Font.getsize(Character)[0] + Config["Text"]["Kerning"]
+		__X += Font.getbbox(Character)[2] + Config["Text"]["Kerning"]
 		#-=-=-=-#
 	Line_Image = Line_Image.crop(Line_Image.getbbox())
 
@@ -178,7 +178,7 @@ for Line in Text:
 		Line_Image.mode,
 		(
 			Line_Image.size[0],
-			Font.getsize("yÓ")[1] + 5
+			Font.getbbox("yÓ")[3] + 5
 		)
 	)
 	Line_Image_2.paste(Line_Image, (0, 0), Line_Image)
@@ -192,7 +192,7 @@ for IMG in enumerate(Images):
 		"RGBA",
 		(
 			Images[IMG].size[0],
-			Images[IMG].size[1] + Font.getsize("yÓ")[1] + len(Images) * 10
+			Images[IMG].size[1] + Font.getbbox("yÓ")[3] + len(Images) * 10
 		),
 		(0,) * 4
 	) # Bug
@@ -200,7 +200,7 @@ for IMG in enumerate(Images):
 		Images[IMG],
 		(
 			0,
-			Font.getsize("yÓ")[1]
+			Font.getbbox("yÓ")[3]
 		),
 		Images[IMG]
 	)
@@ -213,7 +213,7 @@ for IMG in enumerate(Expanded_Images):
 		__Y += Expanded_Images[0].size[1] // len(Expanded_Images)
 	else:
 		__Y += Percentage(
-			Font.getsize("yÓ")[1], 112
+			Font.getbbox("yÓ")[3], 112
 		) + 5
 	Image_Base.paste(
 		Expanded_Images[IMG],
@@ -233,7 +233,7 @@ Pasted = Image.new(
 	(
 		int(Config["Media"]["Image"]["Max_Width"]),
 		Image_Base.size[1] + Percentage(
-			Font.getsize("yÓ")[1], 150
+			Font.getbbox("yÓ")[3], 150
 		)
 	),
 	__Pasted_Color
@@ -242,7 +242,7 @@ Pasted.paste(
 	Image_Base,
 	(
 		(Pasted.size[0] - Image_Base.size[0]) // 2,
-		(Pasted.size[1] - Image_Base.size[1]) // 2 + ((Font.getsize("yÓ")[1] - Font.getsize("Ó")[1]) if list("qypgj") in Text[:-1] else 0)
+		(Pasted.size[1] - Image_Base.size[1]) // 2 + ((Font.getbbox("yÓ")[3] - Font.getbbox("Ó")[3]) if list("qypgj") in Text[:-1] else 0)
 	),
 	Image_Base
 )

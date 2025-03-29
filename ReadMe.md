@@ -1,12 +1,10 @@
 <p align=center><a href=http://ifunny.co><img src=https://raw.githubusercontent.com/UhhhAaron/iFunny-Captions/master/Documents/Pictures/Main/gifcaptioncreator.png width=675></a></p>
 
-<p align=center><a href=http://python.org/downloads/release/python-376><img src=https://img.shields.io/badge/Python-3.7.6-brightgreen?logo=python&logoColor=white&link=http://python.org/downloads/release/python-376&style=for-the-badge></a>
+<p align=center><a href=http://python.org/downloads/release/python-3120><img src=https://img.shields.io/badge/Python-3.12.0-brightgreen?logo=python&logoColor=white&link=http://python.org/downloads/release/python-3120&style=for-the-badge></a>
 
 <p align=center><a href=http://github.com/UhhhAaron/iFunny-Captions/releases/><img src=https://img.shields.io/github/v/release/UhhhAaron/iFunny-Captions?style=for-the-badge></a> <a href=http://github.com/UhhhAaron/iFunny-Captions/blob/master/License.txt><img src=https://img.shields.io/github/license/UhhhAaron/iFunny-Captions?logo=readthedocs&color=red&logoColor=white&style=for-the-badge></a></p>
 
-# CAUTION: This code has been mostly unmaintained for the past 3 years and is bordering on legacy. Many of the attributes it relies on are long deprecated within their respective packages. Development is in progress to bring it up to speed, but in the meantime, YMMV.
-
-### GIF-Caption-Creator is a pack of scripts providing widely customizable [GIF caption](http://knowyourmeme.com/memes/gif-captions) generation.
+### GIF-Caption-Creator is a tool designed to create GIF captions nearly identical to the "iFunny" caption style.
 
 ## Capabilities 
 |  | iFunny App | `GIF-Caption-Creator` |
@@ -18,7 +16,7 @@
 | Custom Fonts | ❌ | ✔️ |
 | Emoji support | ✔️ | ✔️ |
 | Crop support | ✔️ | ❌ |
-| Graphical User Interface | ✔️ | ❌ <img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/Main/Google_Colab.svg width=25> |
+| Graphical User Interface | ✔️ | ❌ |
 | Batch Processing | ❌ | ✔️ |
 ---
 ## Completed & Planned Features
@@ -28,22 +26,22 @@
 - ✔️ GIF size reduction
 - ✔️ Custom fonts support
 - ✔️ Transparent GIF support
-- ❌ [Program Showcase](http://youtube.com/watch?v=r8KTluI9Q5Q) ([Broken Colab](http://youtube.com/watch?v=Uf-D2iEOvDU))
-- ❌ Colab Notebook
 - ✔️ Emoji support<sup>3</sup>
 - ✔️ Automatic text wrap
+- ❌ User-friendly GUI (4.0)
+- ❌ Convenient setup process (4.0)
 
 <sup>1</sup> - Please look at [Custom Fonts](http://github.com/UhhhAaron/GIF-Caption-Creator/wiki/Custom-Fonts) section in wiki.<br>
 <sup>2</sup> - Problems with wrap height might occur.
 
 ## Requirements
 Programs:
-- [`Python >= 3.7`](http://www.python.org/downloads) 
+- [`Python >= 3.10`](http://www.python.org/downloads) 
 
 Modules:
-- [`Pillow 5.10-9.50`](http://github.com/python-pillow/Pillow) - Making images (Pillow 10 removes the 'getsize' attribute. Will implement 'getbbox' as substitute in near future.) 
+- [`Pillow >= 5.10`](http://github.com/python-pillow/Pillow) - Making images
 - [`requests >= 2.13`](http://github.com/psf/requests) - URL fetching 
-- [`emoji >= 0.4.5`](http://github.com/carpedm20/emoji) - Text to emoji support 
+- [`emoji == 1.6.1`](http://github.com/carpedm20/emoji) - Text to emoji support (support for modern versions of this package soon)
 - [`clipboard >= 0.0.4`](http://github.com/terryyin/clipboard) - Clipboard values handling 
 - [`sty >= 0.0.4`](https://github.com/feluxe/sty) - Colored prints 
 - [`colour >= 0.1.5`](https://github.com/vaab/colour) - Colored text values handling 
@@ -82,43 +80,14 @@ The direct executable path for FFmpeg must be added to the "Path" Environment va
 This project was tested on:
 | OS | Python Version |
 |:-:|:-:|
-Windows 10 | 3.7.6 
+Windows 10 | 3.12.0 
 
 [**If there are problems, create an issue here.**](http://github.com/UhhhAaron/GIF-Caption-Creator/issues/new/choose)
 
 ---
 ### Supported GIF services
 
-Be sure to copy the **raw image URL**.
-<table>
-  <thead>
-	<tr>
-		<th>Tenor</th>
-		<th>Giphy</th>
-		<th>Gfycat</th>
-		<th>Tumblr<br>(<code>GIFV</code>)</th>
-		<th>ImgFlip</th>
-		<th>GifImage</th>
-		<th>BestAnimations</th>
-		<th>GifFinder</th>
-		<th>ReactionGIFs</th>
-	</tr>
-  </thead>
-  <tbody>
-	<tr align=center>
-		<td><a href=http://tenor.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/Tenor.svg alt=Tenor width=65></a></td>
-		<td><a href=http://giphy.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/Giphy.svg alt=Giphy width=65></a></td>
-		<td><a href=http://gfycat.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/Gfycat.svg alt=Gfycat width=65></a></td>
-		<td><a href=http://tumblr.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/Tumblr.svg alt=Tumblr width=65></a></td>
-		<td><a href=http://imgflip.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/ImgFlip.svg alt=ImgFlip width=65></a></td>
-		<td><a href=http://gifimage.net target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/GifImage.png alt=GifImage width=65></a></td>
-		<td><a href=http://bestanimations.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/BestAnimations.png alt=BestAnimations width=65></a></td>
-		<td><a href=http://gif-finder.com target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/GifFinder.png alt=GifFinder width=65></a></td>
-		<td><a href=http://reactiongifs.us target="_blank"><img src=https://raw.githubusercontent.com/UhhhAaron/GIF-Caption-Creator/master/Documents/Pictures/GIF_Image_Services_Logos/ReactionGIFs.svg alt=ReactionGIFs width=65></a></td>
-	</tr>
-  </tbody>
-</table>
-
+All GIF hosting sites are supported, as long as you have access to the raw URL for the GIF file you want to use.
 ---
 ### Comparisons
 
