@@ -105,7 +105,6 @@ Text = wrap(
 
 #print(Text)
 
-print("Wrapping text")
 #Text = wrap(
 #	"{0}".format(Config["Text"]["Content"]),
 #	width = Font.getsize(
@@ -181,7 +180,6 @@ for Line in Text:
 	Line_Image_2.paste(Line_Image, (0, 0), Line_Image)
 	#Line_Image_2 = ImageOps.expand(Line_Image_2, border = 1, fill= "#000") # Debug
 	Images.append(Line_Image_2)
-print("ok thats done")
 # Text Alignment
 for IMG in enumerate(Images):
 	IMG = IMG[0]
