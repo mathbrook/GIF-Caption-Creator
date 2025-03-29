@@ -4,7 +4,7 @@
 		"Additional_Wrap": -5,
 		"Kerning": 0,
 		"Font": {
-			"Type": 1
+			"Type": 2
 		},
 		"Replacements": {
 			"''":	"\"",
