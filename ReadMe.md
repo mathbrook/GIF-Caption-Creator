@@ -4,7 +4,7 @@
 
 <p align=center><a href=http://github.com/UhhhAaron/iFunny-Captions/releases/><img src=https://img.shields.io/github/v/release/UhhhAaron/iFunny-Captions?style=for-the-badge></a> <a href=http://github.com/UhhhAaron/iFunny-Captions/blob/master/License.txt><img src=https://img.shields.io/github/license/UhhhAaron/iFunny-Captions?logo=readthedocs&color=red&logoColor=white&style=for-the-badge></a></p>
 
-###CAUTION: This code is extremely painful to run at the moment. I advise using Python 3.10 to run it. An update is in the works to make this code painless and less complex to run.
+# CAUTION: This code has been mostly unmaintained for the past 3 years and is bordering on legacy. Many of the attributes it relies on are long deprecated within their respective packages. Development is in progress to bring it up to speed, but in the meantime, YMMV.
 
 ### GIF-Caption-Creator is a pack of scripts providing widely customizable [GIF caption](http://knowyourmeme.com/memes/gif-captions) generation.
 
@@ -41,7 +41,7 @@ Programs:
 - [`Python >= 3.7`](http://www.python.org/downloads) 
 
 Modules:
-- [`Pillow 5.10-9.50`](http://github.com/python-pillow/Pillow) - Making images (Pillow 10 removes the 'getsize' attribute. Will implement 'getbbox' as substitute in near future. 
+- [`Pillow 5.10-9.50`](http://github.com/python-pillow/Pillow) - Making images (Pillow 10 removes the 'getsize' attribute. Will implement 'getbbox' as substitute in near future.) 
 - [`requests >= 2.13`](http://github.com/psf/requests) - URL fetching 
 - [`emoji >= 0.4.5`](http://github.com/carpedm20/emoji) - Text to emoji support 
 - [`clipboard >= 0.0.4`](http://github.com/terryyin/clipboard) - Clipboard values handling 
