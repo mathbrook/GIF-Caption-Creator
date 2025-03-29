@@ -41,7 +41,7 @@ Programs:
 - [`Python >= 3.7`](http://www.python.org/downloads) 
 
 Modules:
-- [`Pillow >= 5.1.0`](http://github.com/python-pillow/Pillow) - Making images 
+- [`Pillow 5.10-9.50`](http://github.com/python-pillow/Pillow) - Making images (Pillow 10 removes the 'getsize' attribute. Will implement 'getbbox' as substitute in near future. 
 - [`requests >= 2.13`](http://github.com/psf/requests) - URL fetching 
 - [`emoji >= 0.4.5`](http://github.com/carpedm20/emoji) - Text to emoji support 
 - [`clipboard >= 0.0.4`](http://github.com/terryyin/clipboard) - Clipboard values handling 
