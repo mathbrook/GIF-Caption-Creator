@@ -1,0 +1,56 @@
+name: test the thingy
+
+on:
+    push:
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Install uv
+            continue-on-error: true
+            uses: astral-sh/setup-uv@v5
+            with:
+                enable-cache: true
+                
+          - name: Checkout repo
+            uses: actions/checkout@v4
+
+          - name: setup venv
+            run: |
+                uv venv --python 3.12
+                uv pip install -r ./requirements.txt
+
+          - name: install ffmpeg
+            run: | 
+                sudo apt-get install ffmpeg pngquant gifsicle
+
+          - name: run the thingy
+            run: uv run python iFunny_Captions.pyw -t "asdf" -i "asdf"
+
+          - name: Upload changed .gif files
+            if: always()  # Ensures this runs at the end of the workflow
+            run: |
+
+              CHANGED_GIFS=$(git diff --name-only | grep '\.gif$' || true)
+              # Exit early if there are no gif files to upload
+              if [ -z "$CHANGED_GIFS" ]; then
+              echo "No .gif files to upload."
+              exit 0
+              fi
+              # Copy files to a temp directory for upload
+              mkdir -p gif-uploads
+              for file in $CHANGED_GIFS; do
+              # Ensure the file exists (in case it was deleted)
+              if [ -f "$file" ]; then
+              cp --parents "$file" gif-uploads/
+              fi
+              done
+              shell: bash
+
+          - name: Upload artifact
+            if: always()
+            uses: actions/upload-artifact@v4
+            with:
+                name: changed-gif-files
+                path: gif-uploads/
