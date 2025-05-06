@@ -23,7 +23,7 @@ jobs:
 
           - name: install ffmpeg
             run: | 
-                sudo apt-get install ffmpeg pngquant gifsicle
+                sudo apt-get install ffmpeg pngquant gifsicle python3-tk
 
           - name: run the thingy
             run: uv run python iFunny_Captions.pyw -t "asdf" -i "asdf"
