@@ -1,3 +1,4 @@
+from shutil import which
 __OxiPNG = "OxiPNG"
 __OxiPNG_Error_1 = "\n{1}{0}{2} not found!".format(__OxiPNG, Styles.Warning, Styles.Reset)
 __OxiPNG_Error_2 = "\n{0}Image will not be optimized.{1}{2}".format(Styles.Error, Styles.Reset, __BEL)
